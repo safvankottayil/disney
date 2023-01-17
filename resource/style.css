@@ -1,0 +1,93 @@
+
+
+.icon-size{
+    height: 63px;
+    width: 97px;
+}
+.nav-font{
+    font-size: 14px;
+}
+
+.transition-tranceform{
+    transition: 1s;
+}
+.transition-tranceform:hover{
+transform: scale(1.07)
+}
+.sec-4-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sec-4-text{
+    text-align:  center;
+}
+.sec-5-font{
+font-size: 14px;
+}
+
+.sec-2-img{
+    overflow: hidden;
+}
+
+
+.footer1-font {
+    font-size: 14px;
+    list-style: none;
+    margin-left: 38px;
+ 
+}
+@media (max-width:576px) {
+    .footer1-font{
+        font-size: 14px;
+            list-style: none;
+            margin: auto;
+            padding: 5px 0px;
+    }
+}
+@media (max-width:576px) {
+    .footer1-text{
+        flex-direction: column;
+    }
+}
+
+.icons-size{
+    height: 25px;
+    width: 25px;
+}
+@media (max-width:960px) {
+    .footer1-div1{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.footer1-div3{
+display: flex;
+justify-content: flex-end;
+}
+@media (max-width:960px) {
+    .footer1-div3 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+}
+
+.footer-menu li {
+    width: fit-content ;
+    list-style: none;
+    font-size: 12px;
+    
+}
+.footer-menu a{
+    color: black;
+        text-decoration: none;
+}
+.last-footer-text{
+   font-size: 12px;
+}
+.color-1{
+    background-color: rgb(226, 226, 226);
+}
